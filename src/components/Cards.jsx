@@ -1,3 +1,4 @@
+
 const Cards = ({ characters }) => {
   return (
     <>
@@ -5,12 +6,13 @@ const Cards = ({ characters }) => {
         <div className="card" key={character.name}>
           <div className="card-body">
             <h5 className="card-title">Name: {character.name}</h5>
-            <p className="card-text">heigth: {character.height}</p>
+            <img className="card-img" src={`src/assets/img/${character.name}.jpg`} alt={character.name} />
+            <p className="card-text">Height: {character.height}</p>
           </div>
         </div>
       ))}
     </>
-  )
-}
+  );
+};
 
 export default Cards
