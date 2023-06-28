@@ -14,7 +14,7 @@
   gap: 20px;
   background-image:
     linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
-    url(assets/img/logo.jpg);
+    url(public/img/logo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
